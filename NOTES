@@ -3,6 +3,13 @@ Setup
 
 2x3 hours
 
+VM setup
+~~~~~~~~
+
+- Make terminal use colors (e.e. for man pages)
+
+- Install dataset with 1000 images
+
 
 Topics
 ------
@@ -10,21 +17,21 @@ Topics
 Morning Session
 ~~~~~~~~~~~~~~~
 
-- Intro (10 min)
+- Intro (10 min) [need slides]
 
   - we are not programmers
 
   - share best practises, from experience, nothing fancy, but basic tools that
     make life easier
 
-- Unix shell scripting (90min)
+- Unix shell scripting (90min) [needs script]
 
   - example: imagemagick mass conversion of images
              - first B&W only
              - later also same size
              - animated GIFs
 
-  - unix philosophy: one tool for one thing
+  - unix philosophy: one tool for one thing [needs slides? or better as script?]
     - mention basic commands
     - 
   - example: mass renaming
@@ -33,7 +40,10 @@ Morning Session
 
   - example: home dir is full, where are the big files?
 
-- Version control (80min)
+- Version control (80min) [needs script]
+
+  - prepare "fake" Git repo that contains the same development as done above to
+    show difference in clarity
 
   - demo of "old school" version control (e.g. old_old_76.txt)
 
@@ -43,7 +53,7 @@ Morning Session
 
     - commands: init, add, tag. commit, diff, log, gitk, status
 
-- Wrap-up (10 min)
+- Wrap-up (10 min) [need slides]
 
   - how can I do the same at home
 
@@ -59,10 +69,39 @@ Afternoon Session
 
 - Python (3h)
 
-  - convert eye-tracker output into CSV for further analysis
+  - Intro (10min) [needs slides]
 
-  - write a parser -> modularize/refactor parser
+    - Pointers to other tutorials
 
-  - where is documentation?
+    - Scope: glue between specialized tools
+
+    - Potential tools/languages
+      - Why Python?
+
+  - PART1: example: convert eye-tracker output into CSV for further
+                    analysis
+
+  - write a parser -> modularize/refactor parser -> it works
+
+  - PART2: spaghetti code (hard-coded values, cut&paste vs loops)
+            -> refactor -> functions
+           (focus on potential re-use of functionality in related work)
+
+  - PART3: issue: Format change (the parser doesn't fail with an error, but produces
+           non-obvious crap)
+
+  - 1st attempt: fix issue, and test manually (repeatedly)
+
+  - more and more "test cases" make manual testing error prone and tedious
+
+  - PART4: automate unit tests -> show how to use nose/pytest
+
+  - Wrapup-session (10 min) [needs slides]
+
+    - where is Python documentation?
+
+    - how to learn Python?
+
+    - Python for scientific computing (numpy/scipy/pandas/matplotlib/psychopy/....)
 
 
