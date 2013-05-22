@@ -1,0 +1,68 @@
+Setup
+-----
+
+2x3 hours
+
+
+Topics
+------
+
+Morning Session
+~~~~~~~~~~~~~~~
+
+- Intro (10 min)
+
+  - we are not programmers
+
+  - share best practises, from experience, nothing fancy, but basic tools that
+    make life easier
+
+- Unix shell scripting (90min)
+
+  - example: imagemagick mass conversion of images
+             - first B&W only
+             - later also same size
+             - animated GIFs
+
+  - unix philosophy: one tool for one thing
+    - mention basic commands
+    - 
+  - example: mass renaming
+             - zero padding
+
+
+  - example: home dir is full, where are the big files?
+
+- Version control (80min)
+
+  - demo of "old school" version control (e.g. old_old_76.txt)
+
+  - use Git to automate
+
+    - importance of commit messages and tags
+
+    - commands: init, add, tag. commit, diff, log, gitk, status
+
+- Wrap-up (10 min)
+
+  - how can I do the same at home
+
+  - what else is available
+
+  - tour through the whole research process and mention some tools for each step
+    (stimulus preparation, stimulus delivery, data analysis, data visualization,
+     manuscripts, posters, talks)
+
+
+Afternoon Session
+-----------------
+
+- Python (3h)
+
+  - convert eye-tracker output into CSV for further analysis
+
+  - write a parser -> modularize/refactor parser
+
+  - where is documentation?
+
+
