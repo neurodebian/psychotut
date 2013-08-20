@@ -2,7 +2,7 @@ import fileinput
 import numpy as np
 import pylab as pl
 
-def is_dataline(lineno, line):
+def is_dataline(line):
     return line[0].isdigit()
 
 def get_line_items(line):
@@ -14,8 +14,8 @@ def get_line_items(line):
 
 def load_data_in(file_like):
     data = []
-    for lineno, line in enumerate(file_like):
-        if not is_dataline(lineno, line):
+    for line in file_like:
+        if not is_dataline(line):
             continue
         data.append(get_line_items(line))
     return np.array(data)
