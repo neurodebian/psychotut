@@ -83,6 +83,13 @@ ls
 # - Important: 
 # - You can add and commit changes to multuple files simultaneously:
 #   git stores them together in one single object
+# - git can do much more that what we have seen here. Things you may
+#   want to learn about:
+#     - branches
+#     - multiple users
+#     - remote repositories
+#     - online git services, e.g. github
+# 
 # - Exercise: go on working with conversion.sh, improve it, maybe add
 #   additional files and use git to keep track of the changes.
 
