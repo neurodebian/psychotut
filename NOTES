@@ -17,15 +17,16 @@ Topics
 Morning Session
 ~~~~~~~~~~~~~~~
 
-- Intro (10 min) [need slides]
+- Intro (15 min) + laptops setup [need slides]
 
   - we are not programmers
 
   - share best practises, from experience, nothing fancy, but basic tools that
     make life easier
 
-- Unix shell scripting (90min) [needs script]
+- Unix shell scripting (60min) [needs script]
 
+  45min
   - example: imagemagick mass conversion of images
              - first B&W only
              - later also same size
@@ -40,7 +41,7 @@ Morning Session
 
   - example: home dir is full, where are the big files?
 
-- Version control (80min) [needs script]
+- Version control (60min) [needs script]
 
   - prepare "fake" Git repo that contains the same development as done above to
     show difference in clarity
