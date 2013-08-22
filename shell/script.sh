@@ -19,6 +19,9 @@
 # We want to convert images to greyscale, as our experiment only deals with
 # brightness perception ;-)
 # 
+# First of all download the images database http://is.gd/ecvp_tut and extract it
+# somewhere.
+# 
 # The manual way
 # --------------
 # - open file manager: thunar
